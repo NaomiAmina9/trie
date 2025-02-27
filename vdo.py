@@ -115,7 +115,12 @@ plt.title("Hauteur de la tige vs Temps")
 plt.xlabel("Frame")
 plt.ylabel("Hauteur (pixels)")
 
-
+plt.subplot(1, 2, 2)
+plt.plot(df["frame"], df["mean_green"])
+plt.title("Indice de chlorophylle vs Temps")
+plt.xlabel("Frame")
+plt.ylabel("Moyenne verteeeeee (Lab)")
+plt.show() #SHOW THE GRAPHhhhhhhhhhhhhhhh 
 
 
 
